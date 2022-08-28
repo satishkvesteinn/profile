@@ -1,0 +1,161 @@
+.work{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+
+.w-right{
+    position: relative;
+}
+
+.w-mainCircle{
+    z-index: 2;
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-mainCircle>*{
+    position: absolute;
+}
+
+.w-mainCircle > :nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+
+.w-mainCircle > :nth-child(2){
+    top: 6rem;
+    left: -3rem;
+}
+
+.w-mainCircle > :nth-child(3){
+    top: 5.5rem;
+    left: 6rem;
+}
+
+.w-mainCircle > :nth-child(4){
+    top: 6rem;
+    left: 15rem;
+}
+
+.w-mainCircle > :nth-child(5){
+    top: 14rem;
+    left: 6rem;
+}
+
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-secCircle>img{
+    transform: scale(0.6);
+}
+
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.blueCircle{
+    background: #194988;
+    top: 0;
+    left: 18rem;
+}
+
+.yellowCircle{
+    background: #f5c32c;
+    top: 7rem;
+    left: 18rem;
+}
+
+@media screen and (max-width: 480px){
+    .work{
+        flex-direction: column;
+        height: 100vh;
+        gap: 8rem;
+        padding: 0;
+    }
+
+    .w-mainCircle{
+        left: 1.4rem;
+    }
+
+    .blueCircle{
+        background: #194988;
+        top: -4rem;
+        left: 3rem;
+    }
+    
+    .yellowCircle{
+        background: #f5c32c;
+        top: 6.5rem;
+        left: 3rem;
+    }
+
+
+    .w-mainCircle{
+        width: 16rem;
+        height: 16rem;
+    }
+    
+    .w-mainCircle>*{
+        position: absolute;
+    }
+    
+    .w-mainCircle > :nth-child(1){
+        top: -2rem;
+        left: 6rem;
+    }
+    
+    .w-mainCircle > :nth-child(2){
+        top: 6rem;
+        left: -2rem;
+    }
+    
+    .w-mainCircle > :nth-child(3){
+        top: 6rem;
+        left: 6rem;
+    }
+    
+    .w-mainCircle > :nth-child(4){
+        top: 6rem;
+        left: 13.5rem;
+    }
+    
+    .w-mainCircle > :nth-child(5){
+        top: 13rem;
+        left: 6rem;
+    }
+    
+    .w-secCircle{
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        border-radius: 100%;
+        border: 5px solid #ebebeb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--smboxShadow);
+        background: white;
+    }
+    
+}
