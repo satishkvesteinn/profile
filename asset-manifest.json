@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.206bab5c.css",
+    "main.js": "/profile/static/js/main.f58794d2.js",
+    "static/media/admin.png": "/profile/static/media/admin.1bda59d1f18b52da3e49.png",
+    "static/media/news.png": "/profile/static/media/news.3deab34bfc0679c8f2e0.png",
+    "static/media/first.png": "/profile/static/media/first.e4dec91ae86ac52338fe.png",
+    "static/media/boy.png": "/profile/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/profile/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/profile/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/profile/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/profile/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/profile/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/profile/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/profile/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/profile/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/profile/index.html",
+    "main.206bab5c.css.map": "/profile/static/css/main.206bab5c.css.map",
+    "main.f58794d2.js.map": "/profile/static/js/main.f58794d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.206bab5c.css",
+    "static/js/main.f58794d2.js"
+  ]
+}
